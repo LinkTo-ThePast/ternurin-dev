@@ -2,7 +2,7 @@
 import ter1 from "../../assets/ternurines-pics/ter1.png";
 import ter2 from "../../assets/ternurines-pics/ter2.jpg";
 import FlowerDesign from "../FlowerDesign/FlowerDesign.js";
-
+import { CardQuestion } from "../cardQuestion/CardQuestion.js";
 export const MainDesign = () => {
   return (
     <div className="first-div">
@@ -12,6 +12,7 @@ export const MainDesign = () => {
         <h1>Planning our date!</h1>
         <img className="ter2" src={ter1} alt="Ternurin with a custome."></img>
       </header>
+      <CardQuestion />
     </div>
   );
 };

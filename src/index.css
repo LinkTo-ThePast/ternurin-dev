@@ -9,15 +9,16 @@ body {
 
 .first-div {
   align-content: center;
+  justify-content: center;
   text-align: center;
-  background-color: #01161E;
-  box-shadow: 20px;
 }
 
 .first-header {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #01161E;
+  box-shadow: 20px;
 }
 
 .ter1 {
@@ -28,3 +29,4 @@ body {
 .ter2 {
   height: 105px;
 }
+
