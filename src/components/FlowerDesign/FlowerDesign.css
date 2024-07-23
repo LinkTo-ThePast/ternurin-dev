@@ -1,0 +1,20 @@
+.flowers-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 9999; /* Ensure it appears above other content */
+}
+
+.flower {
+  position: absolute;
+  top: -10%;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  opacity: 1; /* Ensure opacity is set to 1 */
+  z-index: 10000; /* Ensure z-index is high enough */
+}
