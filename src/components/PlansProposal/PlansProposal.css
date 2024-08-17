@@ -1,0 +1,25 @@
+
+.container-AllPLans {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8E16C;
+    box-shadow: 5px 8px #01161E;
+    border-radius: 15px;
+    width: 500px;
+    height: 700px;
+    
+}
+/* Ensure individual plan cards have their own styles */
+.card-plan {
+    width: 450px;
+    background-color: #156064; /* Example to make the card stand out */
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 5px 8px #156064;
+    text-align: center; 
+}
