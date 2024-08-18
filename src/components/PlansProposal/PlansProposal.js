@@ -1,29 +1,24 @@
 import "./PlansProposal.css"
 
-export const PlansProposal = () => {
+export const PlansProposal = ({ onPlanClick }) => {
+    const plans = [
+        "Café + Parque cute + chisme ☕",
+        "Bazar/Cafetería de ositos 🐻",
+        "Cafetería/Panadería de gatitos 😺",
+        "Acompañarme por mi ternurin de las Chivas 🐐",
+        "Inaugurar la spooky season con un café de calabaza 🎃",
+        "Patinar ⛸️",
+        "Ir a dibujar 🖍️"
+    ];
+
     return (
         <div className="container-AllPLans">
-            <div className="card-plan">
-                <h4>Café  + Parque cute + chisme ☕</h4>
-            </div>
-            <div className="card-plan">
-                <h4>Bazar/Cafetería de ositos 🐻</h4>
-            </div>
-            <div className="card-plan">
-                <h4>Cafetería/Panadería de gatitos 😺</h4>
-            </div>
-            <div className="card-plan">
-                <h4>Acompañarme por mi ternurin de las Chivas 🐐</h4>
-            </div>
-            <div className="card-plan">
-                <h4>Inaugurar la spooky season con un café de calabaza 🎃</h4>
-            </div>
-            <div className="card-plan">
-                <h4>Patinar ⛸️</h4>
-            </div>
-            <div className="card-plan">
-                <h4>Ir a dibujar 🖍️</h4>
-            </div>            
+            <h1>Planes que hemos platicado: </h1>
+            {plans.map((plan, index) => (
+                <div className="card-plan" key={index}>
+                    <button onClick={() => onPlanClick(plan)}>{plan}</button>
+                </div>
+            ))}
         </div>
     )
 }

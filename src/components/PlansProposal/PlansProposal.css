@@ -9,17 +9,35 @@
     box-shadow: 5px 8px #01161E;
     border-radius: 15px;
     width: 500px;
-    height: 700px;
+    height: 760px;
     
 }
-/* Ensure individual plan cards have their own styles */
+
+.container-AllPLans h1 {
+    color: black;
+}
+
 .card-plan {
     width: 450px;
-    background-color: #156064; /* Example to make the card stand out */
+    height: 100px;
+    background-color: #156064; 
     margin-left: 10px;
     margin-bottom: 15px;
     padding: 3px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 5px 8px #156064;
     text-align: center; 
+}
+
+.card-plan button {
+    border-radius: 10px;
+    border: solid #fff;
+    width: 100%;
+    height: 100%;
+    background-color: #156064;
+    font-family: "IBM Plex Mono";
+    color: #FFFF;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
 }
