@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ternurin-dev/static/css/main.3b478395.css",
+    "main.js": "/ternurin-dev/static/js/main.67c269fc.js",
+    "static/media/ter2.jpg": "/ternurin-dev/static/media/ter2.7ebe583775239713cfda.jpg",
+    "static/media/ter1.png": "/ternurin-dev/static/media/ter1.2b9563c5c57728f0269e.png",
+    "static/media/ter3.png": "/ternurin-dev/static/media/ter3.40a7b0711b7d449703d6.png",
+    "static/media/flower.png": "/ternurin-dev/static/media/flower.6d59876c1ccc757adb6e.png",
+    "index.html": "/ternurin-dev/index.html",
+    "main.3b478395.css.map": "/ternurin-dev/static/css/main.3b478395.css.map",
+    "main.67c269fc.js.map": "/ternurin-dev/static/js/main.67c269fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b478395.css",
+    "static/js/main.67c269fc.js"
+  ]
+}
